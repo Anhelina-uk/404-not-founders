@@ -1,8 +1,70 @@
+.explore-container {
+    padding: 64px 16px;
+    background-color: #dfebeb;
+}
 .tagline-wrapper {
-font-family: var(--font-family);
-font-weight: 600;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-color: var(--color-scheme-1-text);
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 12px;
+}
+.explore-main-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+}
+.explore-main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 48px;
+}
+.explore-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    padding-bottom: 48px
+    
+}
+.explore-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+    
+}
+.join-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    background-color: #c2d9fc;
+    cursor: pointer;
+}
+.explore-img {
+    padding-bottom: 24px;
+    border-radius: 16px;
 }
