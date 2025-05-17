@@ -1,6 +1,14 @@
 /*тут писати базові стилі які не одноразово повторюються*/
-/*body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}*/
+body {
+  font-family: 'Sarabun', sans-serif;
+  color: #0d0b0a;
+  background-color: #f2fafa;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+input {
+  font-family: inherit;
+}
