@@ -1,0 +1,124 @@
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    padding: 64px 32px;
+    width: 100%;
+    height: 100%;
+    background: #f2fafa;
+}
+@media screen and (min-width: 768px){
+    .clients {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 24px;
+        padding: 40px 32px;
+        width: 100%;
+        height: 100%;
+        background: #f2fafa;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .clients {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 24px;
+        padding: 112px 64px;
+        width: 100%;
+        height: 100%;
+        background: #f2fafa;
+    }
+}
+
+.container{
+    width: 343px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+}
+@media screen and (min-width: 768px){
+.container {
+        width: 782px;
+        padding: 0 39px;
+        margin: 0 auto;
+    }
+}
+ @media screen and (min-width: 1440px) {
+.container {
+        width: 1440px;
+        padding: 0 64px;
+        margin: 0 auto;
+    }
+ }
+.clients-title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #0d0b0a;
+}
+@media screen and (min-width: 768px){
+    .clients-title {
+            margin-bottom: 24px;
+        }
+}
+
+@media screen and (min-width: 1440px){
+    .clients-title {
+            margin-bottom: 24px;
+        }
+}
+.clients-text{
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #0d0b0a;
+}
+.clients-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 24px;
+    padding: 12px;
+    background: #dfebeb
+}
+.clients-item:not(:last-child){
+margin-bottom: 24px;
+}
+.clients-item-text{
+    margin-bottom: 32px 9.5px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #0d0b0a;
+}
+.clients-text-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+}
+.clients-text-status{
+margin-bottom: 12px;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+color: #0d0b0a;
+}
